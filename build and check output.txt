@@ -1,0 +1,286 @@
+BUILDING AND CHECKING MASTER BRANCH:-
+
+Building package:
+❯❯❯ R CMD build matrixStats                                                    
+* checking for file ‘matrixStats/DESCRIPTION’ ... OK
+* preparing ‘matrixStats’:
+* checking DESCRIPTION meta-information ... OK
+* cleaning src
+* installing the package to build vignettes
+* creating vignettes ... OK
+* cleaning src
+* checking for LF line-endings in source and make files
+* checking for empty or unneeded directories
+* building ‘matrixStats_0.14.0.tar.gz’
+
+Checking package:
+❯❯❯ R CMD check matrixStats_0.14.0.tar.gz --as-cran                                    
+* using log directory ‘/home/nitin/Documents/gsoc/matrixStats/matrixStats.Rcheck’
+* using R version 3.1.3 (2015-03-09)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘matrixStats/DESCRIPTION’ ... OK
+* this is package ‘matrixStats’ version ‘0.14.0’
+* checking CRAN incoming feasibility ... WARNING
+Maintainer: ‘Henrik Bengtsson <henrikb@braju.com>’
+Insufficient package version (submitted: 0.14.0, existing: 0.14.0)
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+  No repository set, so cyclic dependency check skipped
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .make/.travis.yml.rsp
+  .make
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+
+CRAN-pack does not know about
+  .make/.travis.yml.rsp
+  .make
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘matrixStats’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... NOTE
+Non-standard file/directory found at top level:
+  ‘OVERVIEW.md’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ...
+  Running ‘allocArray.R’
+  Running ‘allocMatrix.R’
+  Running ‘allocVector.R’
+  Running ‘anyMissing.R’
+  Running ‘benchmark.R’
+  Running ‘binCounts.R’
+  Running ‘binMeans,binCounts.R’
+  Running ‘count.R’
+  Running ‘diff2.R’
+  Running ‘indexByRow.R’
+  Running ‘logSumExp.R’
+  Running ‘meanOver.R’
+  Running ‘product.R’
+  Running ‘psortKM.R’
+  Running ‘rowAllAnys.R’
+  Running ‘rowAvgsPerColSet.R’
+  Running ‘rowCollapse.R’
+  Running ‘rowCounts.R’
+  Running ‘rowCumMinMaxs.R’
+  Running ‘rowCumprods.R’
+  Running ‘rowCumsums.R’
+  Running ‘rowDiffs.R’
+  Running ‘rowIQRs.R’
+  Running ‘rowLogSumExps.R’
+  Running ‘rowMads.R’
+  Running ‘rowMedians.R’
+  Running ‘rowOrderStats.R’
+  Running ‘rowProds.R’
+  Running ‘rowQuantiles.R’
+  Running ‘rowRanges.R’
+  Running ‘rowRanks.R’
+  Running ‘rowSds.R’
+  Running ‘rowTabulates.R’
+  Running ‘rowVarDiffs.R’
+  Running ‘rowVars.R’
+  Running ‘rowWeightedMeans.R’
+  Running ‘rowWeightedMedians.R’
+  Running ‘rowWeightedVars.R’
+  Running ‘signTabulate.R’
+  Running ‘sumOver.R’
+  Running ‘varDiff_etal.R’
+  Running ‘weightedMean.R’
+  Running ‘weightedMedian.R’
+  Running ‘weightedVar_etal.R’
+  Running ‘x_OP_y.R’
+  Running ‘zzz.package-unload.R’
+ OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ...
+   ‘matrixStats-methods.md.rsp’ ... OK
+ OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+WARNING: There was 1 warning.
+NOTE: There were 3 notes.
+See
+  ‘/home/nitin/Documents/gsoc/matrixStats/matrixStats.Rcheck/00check.log’
+for details.
+
+
+
+
+BUILDING AND CHECKING DEVELOP BRANCH:-
+
+Building development branch:
+ ❯❯❯ R CMD build matrixStats                                                            
+* checking for file ‘matrixStats/DESCRIPTION’ ... OK
+* preparing ‘matrixStats’:
+* checking DESCRIPTION meta-information ... OK
+* cleaning src
+* installing the package to build vignettes
+* creating vignettes ... OK
+* cleaning src
+* checking for LF line-endings in source and make files
+* checking for empty or unneeded directories
+* building ‘matrixStats_0.14.0-9000.tar.gz’
+
+
+Checking development branch:
+❯❯❯ R CMD check matrixStats_0.14.0-9000.tar.gz --as-cran                               
+* using log directory ‘/home/nitin/Documents/gsoc/matrixStats/matrixStats.Rcheck’
+* using R version 3.1.3 (2015-03-09)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* using option ‘--as-cran’
+* checking for file ‘matrixStats/DESCRIPTION’ ... OK
+* this is package ‘matrixStats’ version ‘0.14.0-9000’
+* checking CRAN incoming feasibility ... Note_to_CRAN_maintainers
+Maintainer: ‘Henrik Bengtsson <henrikb@braju.com>’
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+  No repository set, so cyclic dependency check skipped
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘matrixStats’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking ‘build’ directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... NOTE
+Non-standard file/directory found at top level:
+  ‘OVERVIEW.md’
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking line endings in C/C++/Fortran sources/headers ... OK
+* checking compiled code ... OK
+* checking installed files from ‘inst/doc’ ... OK
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in tests ... OK
+* checking tests ...
+  Running ‘allocArray.R’
+  Running ‘allocMatrix.R’
+  Running ‘allocVector.R’
+  Running ‘anyMissing.R’
+  Running ‘benchmark.R’
+  Running ‘binCounts.R’
+  Running ‘binMeans,binCounts.R’
+  Running ‘count.R’
+  Running ‘diff2.R’
+  Running ‘indexByRow.R’
+  Running ‘logSumExp.R’
+  Running ‘meanOver.R’
+  Running ‘product.R’
+  Running ‘psortKM.R’
+  Running ‘rowAllAnys.R’
+  Running ‘rowAvgsPerColSet.R’
+  Running ‘rowCollapse.R’
+  Running ‘rowCounts.R’
+  Running ‘rowCumMinMaxs.R’
+  Running ‘rowCumprods.R’
+  Running ‘rowCumsums.R’
+  Running ‘rowDiffs.R’
+  Running ‘rowIQRs.R’
+  Running ‘rowLogSumExps.R’
+  Running ‘rowMads.R’
+  Running ‘rowMedians.R’
+  Running ‘rowOrderStats.R’
+  Running ‘rowProds.R’
+  Running ‘rowQuantiles.R’
+  Running ‘rowRanges.R’
+  Running ‘rowRanks.R’
+  Running ‘rowSds.R’
+  Running ‘rowTabulates.R’
+  Running ‘rowVarDiffs.R’
+  Running ‘rowVars.R’
+  Running ‘rowWeightedMeans.R’
+  Running ‘rowWeightedMedians.R’
+  Running ‘rowWeightedVars.R’
+  Running ‘signTabulate.R’
+  Running ‘sumOver.R’
+  Running ‘varDiff_etal.R’
+  Running ‘weightedMean.R’
+  Running ‘weightedMedian.R’
+  Running ‘weightedVar_etal.R’
+  Running ‘x_OP_y.R’
+  Running ‘zzz.package-unload.R’
+ OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... OK
+* checking running R code from vignettes ...
+   ‘matrixStats-methods.md.rsp’ ... OK
+ OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+
+NOTE: There were 2 notes.
+See
+  ‘/home/nitin/Documents/gsoc/matrixStats/matrixStats.Rcheck/00check.log’
+for details.
