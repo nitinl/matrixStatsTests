@@ -1,0 +1,303 @@
+mode: integer
+ int [1:15] -2 0 3 3 1 -4 -3 -4 -3 0 ...
+addNA: FALSE
+ int [1:15] -2 0 3 3 1 -4 -3 -4 -3 0 ...
+na.rm: FALSE
+Weights not specified
+Original:List of 1
+ $ m1: num 6.17
+C implementation:List of 1
+ $ m1: num 6.17
+All weights are 1
+Original:List of 1
+ $ m1: num 6.17
+C implementation:List of 1
+ $ m1: num 6.17
+First weight is 5
+Original:List of 1
+ $ m1: num 5.13
+C implementation:List of 1
+ $ m1: num 5.13
+All weights are 0
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 4.46
+C implementation:List of 1
+ $ m1: num 4.46
+First weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+Last weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+na.rm: TRUE
+Weights not specified
+Original:List of 1
+ $ m1: num 6.17
+C implementation:List of 1
+ $ m1: num 6.17
+All weights are 1
+Original:List of 1
+ $ m1: num 6.17
+C implementation:List of 1
+ $ m1: num 6.17
+First weight is 5
+Original:List of 1
+ $ m1: num 5.13
+C implementation:List of 1
+ $ m1: num 5.13
+All weights are 0
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 4.46
+C implementation:List of 1
+ $ m1: num 4.46
+First weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+Last weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+addNA: TRUE
+ int [1:15] -2 0 3 3 NA -4 NA -4 -3 0 ...
+na.rm: FALSE
+Weights not specified
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+All weights are 1
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is 5
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+All weights are 0
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is 8.5
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is Inf
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+Last weight is Inf
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+na.rm: TRUE
+Weights not specified
+Original:List of 1
+ $ m1: num 6.53
+C implementation:List of 1
+ $ m1: num 6.53
+All weights are 1
+Original:List of 1
+ $ m1: num 6.53
+C implementation:List of 1
+ $ m1: num 6.53
+First weight is 5
+Original:List of 1
+ $ m1: num 5.29
+C implementation:List of 1
+ $ m1: num 5.29
+All weights are 0
+Original:List of 1
+ $ m1: int NA
+C implementation:List of 1
+ $ m1: int NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 4.52
+C implementation:List of 1
+ $ m1: num 4.52
+First weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+Last weight is Inf
+Original:List of 1
+ $ m1: int 0
+C implementation:List of 1
+ $ m1: int 0
+mode: double
+ num [1:15] -0.00521 2.4098 0.94008 1.05362 4.39529 ...
+addNA: FALSE
+ num [1:15] -0.00521 2.4098 0.94008 1.05362 4.39529 ...
+na.rm: FALSE
+Weights not specified
+Original:List of 1
+ $ m1: num 7.36
+C implementation:List of 1
+ $ m1: num 7.36
+All weights are 1
+Original:List of 1
+ $ m1: num 7.36
+C implementation:List of 1
+ $ m1: num 7.36
+First weight is 5
+Original:List of 1
+ $ m1: num 6.06
+C implementation:List of 1
+ $ m1: num 6.06
+All weights are 0
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 5.24
+C implementation:List of 1
+ $ m1: num 5.24
+First weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+Last weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+na.rm: TRUE
+Weights not specified
+Original:List of 1
+ $ m1: num 7.36
+C implementation:List of 1
+ $ m1: num 7.36
+All weights are 1
+Original:List of 1
+ $ m1: num 7.36
+C implementation:List of 1
+ $ m1: num 7.36
+First weight is 5
+Original:List of 1
+ $ m1: num 6.06
+C implementation:List of 1
+ $ m1: num 6.06
+All weights are 0
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 5.24
+C implementation:List of 1
+ $ m1: num 5.24
+First weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+Last weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+addNA: TRUE
+ num [1:15] -0.00521 2.4098 0.94008 1.05362 NA ...
+na.rm: FALSE
+Weights not specified
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+All weights are 1
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is 5
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+All weights are 0
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is Inf
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+Last weight is Inf
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+na.rm: TRUE
+Weights not specified
+Original:List of 1
+ $ m1: num 7.62
+C implementation:List of 1
+ $ m1: num 7.62
+All weights are 1
+Original:List of 1
+ $ m1: num 7.62
+C implementation:List of 1
+ $ m1: num 7.62
+First weight is 5
+Original:List of 1
+ $ m1: num 6.03
+C implementation:List of 1
+ $ m1: num 6.03
+All weights are 0
+Original:List of 1
+ $ m1: num NA
+C implementation:List of 1
+ $ m1: num NA
+First weight is 8.5
+Original:List of 1
+ $ m1: num 5.09
+C implementation:List of 1
+ $ m1: num 5.09
+First weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+Last weight is Inf
+Original:List of 1
+ $ m1: num 0
+C implementation:List of 1
+ $ m1: num 0
+> 
+> cat("DONE\n")
+DONE
